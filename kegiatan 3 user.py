@@ -1,6 +1,6 @@
 import socket
-def bola(r=0):
-    L = 4 * 3.14 * r * r
+def prisma:
+    L = 2*luasalas+luasselimut
     return L
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.bind(("", 50001))
@@ -20,6 +20,6 @@ while 1:
                 x = value
                 komm.send("Parameter dicatat")
         elif data=='hitung':
-            komm.send('luas bola dengan jari-jari {} adalah {}'.format(x, bola(r)))
+            komm.send('luas prisma {} adalah {}'.format(x, prisma(r)))
         else:
             komm.send('Tidak ada')
